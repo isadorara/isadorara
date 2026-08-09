@@ -42,8 +42,10 @@
     </text>
 
     <text x="30" y="190" font-size="16" fill="#58a6ff">
-      <tspan fill="#7ee787">$</tspan> <tspan filter="url(#glow)" fill="#c9d1d9">_</tspan>
-      <animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/>
+      <tspan fill="#7ee787">$</tspan> 
+      <tspan fill="#c9d1d9" font-weight="bold" font-family="monospace">_
+      <animate attributeName="opacity" values="1;0;1" dur="2s" calcMode="discrete" repeatCount="indefinite"/>
+      </tspan>
     </text>
   </g>
 </svg>
